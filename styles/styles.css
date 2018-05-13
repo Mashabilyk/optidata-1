@@ -4,5 +4,55 @@
 
     background-image: url("../images/simon-goetz-355085-unsplash.jpg");
     background-color: #cccccc;
-    background-position: center; 
- }
+    background-position: center;
+    background-repeat: repeat-y;
+}
+
+a {
+    font-family: 'IBM Plex Sans', arial, serif;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: yellow;
+}
+
+.logo {
+    padding: 5% 5%;
+    width: 50%;
+}
+
+.logo-image {
+    width: 100px;
+}
+
+.menu {
+    width: 50%;
+    float: right;
+    padding: 5% 5% 0 1%;
+}
+
+.description {
+    width: 50%;
+    float: right;
+    padding: 5% 5% 0 1%;
+    font-weight: bold;
+}
+
+.slogan {
+    padding: 10% 0 0 5%;
+    width: 45%;
+}
+
+h1 { 
+    font-family: 'IBM Plex Sans', arial, serif;
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.black-button {
+    color: white;
+    background: black;
+    padding: 5px 10px;
+}
